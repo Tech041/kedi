@@ -73,10 +73,10 @@ const OurCategories = () => {
   }, [currentIndex]);
 
   // Handle manual navigation
-  const goToSlide = (index) => {
-    setTransition("transform duration-500 ease-in-out");
-    setCurrentIndex(index);
-  };
+  // const goToSlide = (index) => {
+  //   setTransition("transform duration-500 ease-in-out");
+  //   setCurrentIndex(index);
+  // };
 
   return (
     <div className="flex items-center justify-center ">
@@ -119,7 +119,7 @@ const OurCategories = () => {
         </button> */}
 
           {/* Dot Indicators */}
-          <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-2">
+          {/* <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-2">
             {slides.map((_, index) => (
               <button
                 key={index}
@@ -129,7 +129,7 @@ const OurCategories = () => {
                 onClick={() => goToSlide(index)}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
