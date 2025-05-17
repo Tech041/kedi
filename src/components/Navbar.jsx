@@ -28,10 +28,11 @@ const Navbar = () => {
           <nav className=" flex justify-between items-center gap-3 flex-[2] relative">
             <div className="flex-[3] hidden md:block ">
               <ul className="flex justify-center items-center gap-5 text-gray-200">
-                <li className={liStyles}>Benefits</li>
+                <li className={liStyles}>Home</li>
                 <li className={liStyles}>About us</li>
+                <li className={liStyles}>Benefits</li>
+                <li className={liStyles}>Products</li>
                 <li className={liStyles}>Contact us</li>
-                <li className={liStyles}>Services</li>
               </ul>
             </div>
             <div className="flex-1 flex  items-center gap-4 justify-end ">
@@ -60,7 +61,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                Benefits
+                Home
               </li>
               <li
                 onClick={() => setIsOpen((prev) => !prev)}
@@ -72,13 +73,21 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                Contact Us
+                Benefits
               </li>
+
               <li
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                Services
+                Products
+              </li>
+
+              <li
+                onClick={() => setIsOpen((prev) => !prev)}
+                className={mobileStyle}
+              >
+                Contact Us
               </li>
             </ul>
           </nav>

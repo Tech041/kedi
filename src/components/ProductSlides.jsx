@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductSlides = ({ src }) => {
   return (
-    <div className="w-[90%] h-[80%]">
+    <div className="w-[90%] h-[80%]  rounded-3xl overflow-hidden">
       <img
         src={src}
         alt="product_images"

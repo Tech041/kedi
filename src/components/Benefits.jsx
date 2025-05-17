@@ -6,7 +6,7 @@ const Benefits = () => {
     <section className="pt-10 bg-yellow-100 pb-5">
       <Container>
         <h1 className="capitalize text-center font-semibold text-xl md:text-2xl text-green-800">
-          Our Porduct benefits
+          Our products are 100% herbal.
         </h1>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-10 ">
           {/* left */}
@@ -19,29 +19,14 @@ const Benefits = () => {
           <div className="flex-1  font-semibold text-green-800 w-full h-full flex justify-center items-center ">
             <div className="">
               <h1 className="text-xl text-orange-700  text-center pb-2">
-                Herbal products offer a variety of benefits, making them a
-                popular choice for those seeking natural remedies. 
-                
+                Discover Our Range of Health Products.
               </h1>
               <p className="py-2">
-                Many herbal products support the body's ability to heal itself
-                without synthetic chemicals.
-              </p>
-              <p className="">
-                Compared to pharmaceuticals, herbal remedies often have milder
-                side effects.
-              </p>
-              <p className="py-2">
-                Many herbs contain antioxidants that help fight free radicals
-                and promote overall health.
-              </p>
-              <p>
-                Herbs such as peppermint and chamomile soothe digestive issues
-                and improve gut health.
-              </p>
-              <p className="py-2">
-                Herbal remedies are often more cost-effective than conventional
-                medicine.
+                We offer a diverse selection of health solutions, including
+                herbal medicine, traditional Chinese medicine, food supplements,
+                malaria treatments, medical devices, and personal care products.
+                Each of our products is carefully tested and proven effective in
+                preventing ailments and enhancing overall well-being
               </p>
             </div>
           </div>
