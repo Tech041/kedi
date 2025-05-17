@@ -14,14 +14,18 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center  gap-14 my-10 mt-40 text-sm">
           <div className="">
             <div className="">
-              <p className="text-xl font-medium mb-5 pt-5 text-orange-600 ">
-                Customer Services
+              <p className="text-xl font-medium mb-5 pt-5 text-white ">
+                Kedi Pharma
               </p>
-              <ul className="flex flex-col gap-1 ">
-                <li className="hover:cursor-pointer py-1">FAQs</li>
-                <li className="hover:cursor-pointer">Return Policy</li>
-                <li className="hover:cursor-pointer py-1">Our Stores</li>
-              </ul>
+              <div className="">
+                <img
+                  src="/logo.png"
+                  alt=""
+                  width={50}
+                  height={50}
+                  className="w-[30px] h-[30px] rounded-full"
+                />
+              </div>
             </div>
           </div>
           <div className="">
@@ -29,11 +33,31 @@ const Footer = () => {
               Quick Link
             </p>
             <ul className="flex flex-col gap-1">
-              <li className="cursor-pointer py-1">Home</li>
-              <li className="cursor-pointer">Benefits</li>
-              <li className="cursor-pointer py-1">About Us</li>
-              <li className="cursor-pointer">Products</li>
-              <li className="cursor-pointer py-1">Contact Us</li>
+              <li className="cursor-pointer py-1">
+                <a href="#home" className="">
+                  Home
+                </a>
+              </li>
+              <li className="cursor-pointer">
+                <a href="#benefits" className="">
+                  Benefits
+                </a>
+              </li>
+              <li className="cursor-pointer py-1">
+                <a href="#about" className="">
+                  About Us
+                </a>
+              </li>
+              <li className="cursor-pointer">
+                <a href="#products" className="">
+                  Products
+                </a>
+              </li>
+              <li className="cursor-pointer py-1">
+                <a href="#contact" className="">
+                  Contact Us
+                </a>
+              </li>
             </ul>
           </div>
           <div className="">
