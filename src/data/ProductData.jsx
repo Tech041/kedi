@@ -122,4 +122,10 @@ export const ProductData = [
     description: "Provides eight essential vitamins plus zinc.",
     imgUrl: "/zinc.jpg",
   },
+   {
+    id: 20,
+    name: "VIP Chair Massager",
+    description: "Relieves stress and muscle tension,lowers blood pressure,improves posture and breathing.",
+    imgUrl: "/massager.jpg",
+  },
 ];

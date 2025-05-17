@@ -29,8 +29,8 @@ const Hero = () => {
             </div>
             <div className="pt-4">
               <h1 className="text-center md:text-start">
-                Unlock your health with good natiral medications ang get true
-                taste of good life and get rewarded bountifully.
+                Enhance your well-being with natural remedies, experience the
+                true essence of a healthy life, and reap abundant rewards.
               </h1>
               <div className="py-4 flex justify-center items-center md:justify-start">
                 <Button>

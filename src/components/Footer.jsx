@@ -11,20 +11,22 @@ const Footer = () => {
       id="footer"
     >
       <Container>
-        <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center  gap-14 my-10 mt-40 text-sm">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-center  gap-14 my-10 mt-40 text-sm">
           <div className="">
             <div className="">
               <p className="text-xl font-medium mb-5 pt-5 text-white ">
                 Kedi Pharma
               </p>
               <div className="">
-                <img
-                  src="/logo.png"
-                  alt=""
-                  width={50}
-                  height={50}
-                  className="w-[30px] h-[30px] rounded-full"
-                />
+                <a href="#home" className="">
+                  <img
+                    src="/logo.png"
+                    alt=""
+                    width={50}
+                    height={50}
+                    className="w-[30px] h-[30px] rounded-full"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -69,7 +71,7 @@ const Footer = () => {
                 <div className="flex items-center justify-center gap-3 ">
                   <div className="">
                     <a
-                      href="https://www.facebook.com/share/1Dfx7wUz2t/?mibextid=wwXIfr"
+                      href="https://www.facebook.com/share/1A8YHCQtsR/"
                       target="_blank"
                       className=""
                     >
@@ -80,7 +82,7 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <a
-                      href="https://www.instagram.com/vicelpharmacy?igsh=ejBxaW9uZnA3eTZu&utm_source=qr"
+                      href="https://www.instagram.com/kitaajanwachuku?igsh=MWJ6bGlxMW45OHFrNQ=="
                       target="_blank"
                       className=""
                     >

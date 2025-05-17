@@ -18,14 +18,17 @@ const Navbar = () => {
         <div className="flex items-center hover:cursor-pointer">
           {/* logo */}
           <div className="flex-1 flex items-center gap-2 ">
-            <img
-              src="/logo.png"
-              alt=""
-              width={30}
-              height={30}
-              className="w-[30px] h-[30px] rounded-full"
-            />
-            <span className="text-xs text-white font-bold ">Kedi Pharma</span>
+            <a href="#home" className="">
+              <img
+                src="/logo.png"
+                alt=""
+                width={30}
+                height={30}
+                className="w-[30px] h-[30px] rounded-full"
+              />
+
+              <span className="text-xs text-white font-bold ">Kedi Pharma</span>
+            </a>
           </div>
           {/* nav links */}
           <nav className=" flex justify-between items-center gap-3 flex-[2] relative">
@@ -38,7 +41,7 @@ const Navbar = () => {
                 </li>
                 <li className={liStyles}>
                   <a href="#about" className="">
-                    About us
+                    About 
                   </a>
                 </li>
                 <li className={liStyles}>
@@ -53,7 +56,7 @@ const Navbar = () => {
                 </li>
                 <li className={liStyles}>
                   <a href="#footer" className="">
-                    Contact us
+                    Contact
                   </a>
                 </li>
               </ul>
@@ -97,7 +100,7 @@ const Navbar = () => {
                 className={mobileStyle}
               >
                 <a href="#about" className="">
-                  About us
+                  About 
                 </a>
               </li>
               <li
@@ -123,7 +126,7 @@ const Navbar = () => {
                 className={mobileStyle}
               >
                 <a href="#footer" className="">
-                  Contact us
+                  Contact
                 </a>
               </li>
             </ul>
@@ -131,7 +134,7 @@ const Navbar = () => {
             <div className="flex items-center justify-center gap-5 pt-10 ">
               <div className="">
                 <a
-                  href="https://www.facebook.com/share/1Dfx7wUz2t/?mibextid=wwXIfr"
+                  href="https://www.facebook.com/share/1A8YHCQtsR/"
                   target="_blank"
                   className=""
                 >
@@ -142,7 +145,7 @@ const Navbar = () => {
               </div>
               <div className="">
                 <a
-                  href="https://www.instagram.com/vicelpharmacy?igsh=ejBxaW9uZnA3eTZu&utm_source=qr"
+                  href="https://www.instagram.com/kitaajanwachuku?igsh=MWJ6bGlxMW45OHFrNQ=="
                   target="_blank"
                   className=""
                 >

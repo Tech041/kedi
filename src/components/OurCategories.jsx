@@ -7,7 +7,7 @@ import ProductSlides from "./ProductSlides";
 const slides = [
   {
     id: 1,
-    url: "/ging.jpg",
+    url: "/logo.png",
   },
   {
     id: 2,
@@ -82,7 +82,7 @@ const OurCategories = () => {
     <div className="flex items-center justify-center ">
       <div className="">
         <h1 className="text-center text-base lg:text-xl font-bold py-4 text-orange-600">
-          Our Product Categories
+          The partner we can trust.
         </h1>
         <div className="relative w-full  overflow-hidden">
           {/* Slides */}
