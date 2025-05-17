@@ -2,7 +2,7 @@ import Container from "./Container";
 
 const About = () => {
   return (
-    <section className=" h-[850px] sm:h-[750px] md:h-[400px] w-full bg-green-50 pt-10 ">
+    <section className=" h-[850px] sm:h-[750px] md:h-[400px] w-full bg-green-50 pt-10 " id="about">
       <Container>
         <div className="">
           <h1 className="text-xl md:text-2xl font-semibold text-center md:text-start text-orange-700 uppercase ">

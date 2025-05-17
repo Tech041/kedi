@@ -11,10 +11,7 @@ const Product = () => {
     <section className="flex justify-center  items-center py-10">
       <Container>
         <div className="">
-          <Link
-            to={"/"}
-            className=""
-          >
+          <Link to={"/"} className="">
             <IoIosArrowBack size={30} color="green" />
           </Link>
         </div>
@@ -40,7 +37,11 @@ const Product = () => {
                 <p className="text-lg text-green-700">{product.description}</p>
               </div>
               <div className="pt-2 text-center">
-                <Button>Buy Now</Button>
+                <Button>
+                  <a href="https://wa.link/k5g70d" className="">
+                    Buy Now
+                  </a>
+                </Button>
               </div>
             </div>
           </div>

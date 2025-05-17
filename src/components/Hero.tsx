@@ -8,7 +8,10 @@ const Hero = () => {
   const { isOpen, setIsOpen } = useContext(AppContext);
 
   return (
-    <section className="bg-[url('/hero.png')] bg-cover h-[850px] md:h-[600px] w-full pt-24">
+    <section
+      className="bg-[url('/hero.png')] bg-cover h-[850px] md:h-[600px] w-full pt-24"
+      id="home"
+    >
       <Container>
         <div className="flex flex-col md:flex-row items-center h-full w-full ">
           {/* left */}
@@ -30,7 +33,11 @@ const Hero = () => {
                 taste of good life and get rewarded bountifully.
               </h1>
               <div className="py-4 flex justify-center items-center md:justify-start">
-                <Button>Explore Now</Button>
+                <Button>
+                  <a href="#products" className="">
+                    Explore Now
+                  </a>
+                </Button>
               </div>{" "}
             </div>
           </div>

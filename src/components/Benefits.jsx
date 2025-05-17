@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Benefits = () => {
   return (
-    <section className="pt-10 bg-yellow-100 pb-5">
+    <section className="pt-10 bg-yellow-100 pb-5" id="benefits">
       <Container>
         <h1 className="capitalize text-center font-semibold text-xl md:text-2xl text-green-800">
           Our products are 100% herbal.
