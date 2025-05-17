@@ -52,7 +52,7 @@ export const ProductData = [
   {
     id: 8,
     name: "Golden six",
-    description: "Premier tonic for Yin-Yang balance and longevity.",
+    description: "For management of hypertension.",
     imgUrl: "/gold.jpg",
   },
   {
@@ -122,10 +122,72 @@ export const ProductData = [
     description: "Provides eight essential vitamins plus zinc.",
     imgUrl: "/zinc.jpg",
   },
-   {
+  {
     id: 20,
     name: "VIP Chair Massager",
-    description: "Relieves stress and muscle tension,lowers blood pressure,improves posture and breathing.",
+    description:
+      "Relieves stress and muscle tension,lowers blood pressure,improves posture and breathing.",
     imgUrl: "/massager.jpg",
+  },
+  {
+    id: 21,
+    name: "Vitagent",
+    description:
+      "Vitagent diatary supplement is a rich blend of vitamins and minerals, designed to support immunity,energy and muscle function, enhance metabolism and performance and reduce stress and fatigue.",
+    imgUrl: "/vitagent.jpg",
+  },
+  {
+    id: 22,
+    name: "VitaPreGo",
+    description:
+      "Provides the essential nutritional benefits needed before,during and after pregnancy. It is balanced formula including vitamins D,E,B6& B12,Folic acid and more.",
+    imgUrl: "/vitaprego.jpg",
+  },
+  {
+    id: 23,
+    name: "GRAPEMIN-E",
+    description:
+      "Promotes collagen formation, improves skin elasticity, supporting joint health and enhancing skin glow.",
+    imgUrl: "/grapemine.jpg",
+  },
+  {
+    id: 24,
+    name: "CELLO Q10",
+    description:
+      "Helps reduce oxidative stress in all cells throughout the body. Supports energy production.",
+    imgUrl: "/cello10.jpg",
+  },
+  {
+    id: 25,
+    name: "M&V",
+    description:
+      "Advanced daily multivitamin complex that supports immunity,energy and metabolic functions. Promotes skin,hair and nail health.",
+    imgUrl: "/m&v.jpg",
+  },
+  {
+    id: 26,
+    name: "Diawell",
+    description: "Used in treatment of type 2 diabetes.",
+    imgUrl: "/diawell.jpg",
+  },
+  {
+    id: 27,
+    name: "KEDICAFE",
+    description:
+      "Boosts energy,strengthens the immune system, improves digestion,promotes weight management,an effective antioxidant,and enhances sexual wellness.",
+    imgUrl: "/kedicafe.jpg",
+  },
+  {
+    id: 28,
+    name: "ULTRAMEGA",
+    description: "Supports heart,joint and brain health.",
+    imgUrl: "/ultamega.jpg",
+  },
+  {
+    id: 29,
+    name: "Gum Care",
+    description:
+      "Kedi gum care toothpaste is designed to promote gum health and overall oral hygiene. It is formulated with herbal ingredients which have antioxidant properties, helping to protect gums and prevent gum infection.",
+    imgUrl: "/gumcare.jpg",
   },
 ];

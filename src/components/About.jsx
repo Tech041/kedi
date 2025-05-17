@@ -29,7 +29,7 @@ const About = () => {
               </h1>
               <p className="">
                 <span className="font-semibold">
-                  Pharm Chima and Precious Ajanwachukwu:
+                  Pharm Chima and Precious Ajanwachuku:
                 </span>{" "}
                 The Power Duo in Holistic Health. At the heart of Kedi Pharma
                 Herbal Supplements is a shared passion for natural healing and
