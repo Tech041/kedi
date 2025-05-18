@@ -190,4 +190,11 @@ export const ProductData = [
       "Kedi gum care toothpaste is designed to promote gum health and overall oral hygiene. It is formulated with herbal ingredients which have antioxidant properties, helping to protect gums and prevent gum infection.",
     imgUrl: "/gumcare.jpg",
   },
+  {
+    id: 30,
+    name: "Lirich",
+    description:
+      "Effective for improving abnormal liver functions, treating alcoholic and fatty liver,improving hematopoietic functions and blood dexotification",
+    imgUrl: "/lirich.jpg",
+  },
 ];
