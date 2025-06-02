@@ -33,7 +33,7 @@ const Product = () => {
 
             {/* Product Description */}
             <div className="">
-              <div className=" text-gray-600 text-center">
+              <div className=" text-gray-600 text-center pb-2">
                 <p className="text-lg text-green-700">{product.description}</p>
               </div>
               <div className="pt-2 text-center">

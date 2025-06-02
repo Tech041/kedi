@@ -8,7 +8,8 @@ export const ProductData = [
   {
     id: 1,
     name: "Reishi",
-    description: "Premier tonic for viral infections.",
+    description:
+      "Premier tonic for viral infections,immune system booster,reduces HIV allergies,liver protection, relives fatigue and impotency,lowers cholesterol and blood pressure,reduces altitude sickness,treats female infertility,nephritis and geneal allergy.",
     imgUrl: "/reishi.jpg",
   },
   {
@@ -28,74 +29,82 @@ export const ProductData = [
   {
     id: 4,
     name: "Constilease",
-    description: "Relieves constipation syndrome.",
+    description:
+      "Relieves constipation syndrome,relives bad breath,prevents dry skin and acne.",
     imgUrl: "/const.jpg",
   },
   {
     id: 5,
     name: "Cordy-royal jelly",
-    description: "Premier tonic for reducing blood fat.",
+    description:
+      "Premier tonic for reducing blood fat,prevents heart failure,anemia and arteriocleriosis.",
     imgUrl: "/cordy.jpg",
   },
   {
     id: 6,
     name: "Eye beta",
-    description: "Promotes healthy vision.",
+    description:
+      "Promotes healthy vision,enhances visual acuity and removes harmful free radicals,maintains capillary functions.relieves strain, pain and eye dryness,prevents glaucoma, cataract,blured vision, prevents diabetic retinopathy,protects against ectopia lentis and improves blood circulation of the eye.",
     imgUrl: "/eye.jpg",
   },
   {
     id: 7,
     name: "Gastrifort",
-    description: "Promotes stomach health and relieves heartburn.",
+    description: "Promotes stomach health and relieves heartburn,cures chronic gastritis,stomach ulcer,flatulence,Hepatitis B,chronic hepatitis,heart burn,digestic disorder,effective for stomach and liver diseases and eye problems.",
     imgUrl: "/gas.jpg",
   },
   {
     id: 8,
     name: "Golden six",
-    description: "For management of hypertension.",
+    description:
+      "For management of hypertension,rheumatism,stroke,diabetes type2,menstrual cramps,back pain due to kidney problem,menopausal disorder,fatigue,immune system disorder,arthitis,female infertility and protects accelerated aging.",
     imgUrl: "/gold.jpg",
   },
   {
     id: 9,
     name: "Gynapharm",
     description:
-      "Effective for pelvic inflammatory disease(PID) and inflammation of ovaries.",
+      "Effective for pelvic inflammatory disease(PID),inflammation of endometrium,uterine tract and appendages of the womb, prevents inflammation of ovaries.",
     imgUrl: "/gyna.jpg",
   },
   {
     id: 10,
     name: "Haemocare",
-    description: "Premier tonic for blood nourishment.",
+    description:
+      "Premier tonic for blood nourishment proving iron,zinc and copper,vit B12 and folic acid, formation of haemoglobin and red blood cell formation.",
     imgUrl: "/heam.jpg",
   },
   {
     id: 11,
     name: "Revive",
-    description: "For boosting sexual performance.",
+    description:
+      "For boosting sexual performance,improves libido and enhance stamina,delays ejaculation and cures waist pain.",
     imgUrl: "/revive.jpg",
   },
   {
     id: 12,
     name: "Golden hypha",
-    description: "Restores immune system.",
+    description: "Restores and activates immune system,protects liver,prevents dermatitis,fibroid,tumor,relieves neurodermatitis, anti virus,relieves side effects of radiotherapy and chemotherapy,, cures hepatits B.",
     imgUrl: "/hypa.jpg",
   },
   {
     id: 13,
     name: "Jointeez",
-    description: "Relieves muscular, joint and waist pain.",
+    description:
+      "Relieves muscular, joint and waist pain.,activates blood flow, and removes blood status, dispells wind and eliminates dampness, treating diseases caused by rheumatism,severe pain, prevents obstruction,congestion and blocked meridians ",
     imgUrl: "/joinz.jpg",
   },
   {
     id: 14,
     name: "Magilim",
-    description: "Used for weight improvement.",
+    description: "Used for weight improvement,detoxification,balances blood sugar level,prevents obesity,diabetes and burns fat.",
     imgUrl: "/mag.jpg",
   },
   {
     id: 15,
     name: "Quinghao",
-    description: "For treatment of all forms of malaria.",
+    description:
+      "For treatment of all forms of malaria and multi-drug resistant malaria.",
     imgUrl: "/quin.jpg",
   },
   {
@@ -113,7 +122,8 @@ export const ProductData = [
   {
     id: 18,
     name: "Vigor essential",
-    description: "Premier tonic for vigor and virility.",
+    description:
+      "Premier tonic for vigor and virility.Prevents male infertility,prostate disease,,enhances sexual performance,boost sperm count,reduces depression,asthma,accelerated aging,helps in body building,prevents prostate enlargement/cancer,impotence, and enhances overall healthy body.",
     imgUrl: "/vigor.jpg",
   },
   {
@@ -126,8 +136,8 @@ export const ProductData = [
     id: 20,
     name: "VIP Chair Massager",
     description:
-      "Relieves stress and muscle tension,lowers blood pressure,improves posture and breathing.",
-    imgUrl: "/massager.jpg",
+      "Relieves stress and muscle tension,lowers blood pressure,improves posture and breathing.Also supports weight loss, improves sleep, enhances mobility,reduces stress,promotes relaxation,improves cardiovascular health and immunity.",
+    imgUrl: "/chair.png",
   },
   {
     id: 21,
@@ -161,7 +171,7 @@ export const ProductData = [
     id: 25,
     name: "M&V",
     description:
-      "Advanced daily multivitamin complex that supports immunity,energy and metabolic functions. Promotes skin,hair and nail health.",
+      "Advanced daily multivitamin complex like zinc,vit c, vit A,and D3,iron, selenium, and others that supports immunity,energy and metabolic functions. Promotes skin,hair and nail health.",
     imgUrl: "/m&v.jpg",
   },
   {
@@ -180,7 +190,8 @@ export const ProductData = [
   {
     id: 28,
     name: "ULTRAMEGA",
-    description: "Supports heart,joint and brain health.",
+    description:
+      "Supports heart,joint and brain health,improves immunity,arthritis,depression and anxiety,eye disorder, alzheimer's disease, skincare,acne and diabeties.",
     imgUrl: "/ultamega.jpg",
   },
   {
